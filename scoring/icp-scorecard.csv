@@ -1,0 +1,13 @@
+# ICP Scorecard (archetypes) — transparent comparison
+> Weights per Master Spec §9/Table-11 logic adapted to archetypes. 1–5 scale. No silent methodology swap: spec weights kept (Pain15 Econ15 Proof15 Repeat15 Prospect10 Urgency10 Buyer10 Delivery5 Defensibility3 Cycle2).
+
+archetype,pain,economic,urgency,proof,repeatability,prospectability,buyer_access,delivery,defensibility,cycle,weighted_total,rank,verdict
+Dealer-distributor ops NARROWED (DMS-bypassed challenger),5,4,4,4,4,3,3,3,3,3,3.93,1,"headline Config-v1 WITH Day-10 breaker; loses prospectability to voice, wins proof-breadth + differentiation"
+High-volume voice sales ops,4,3,5,3,4,5,4,4,2,5,3.85,2,"parallel 30% speed lane + entry tactic; fragile single-proof (Bhajanlal); week-1 bar-test gate"
+Knowledge-heavy (test-prep-shaped),4,5,3,4,3,3,3,3,4,3,3.63,3,"selective 2-3 accounts max; faculty-veto + domain-cost risk"
+Industrial/operational optimization,5,5,2,4,2,2,2,2,5,1,3.26,4,"warm-only bench; highest value/defensibility, slowest cycle; kill-line 30-day walk test"
+Enterprise infra/compliance,3,3,3,3,3,4,2,3,2,3,3.02,5,"inbound/expand-only; different buyer (CTO)"
+SME-ERP operating layer,3,3,4,2,4,4,4,4,2,4,3.29,6,"utilisation fill, not pipeline headline"
+
+# Method note
+Dealer-ops narrowed beats voice 3.93 vs 3.85 on proof-breadth + repeatability + defensibility; voice wins prospectability/cycle. Adjudication: dealer-ops headline per spec mandate + voice parallel (speed-test decides order). Industrial kept bench (value) not headline (cycle). All HYPOTHESIS until practitioner gate.

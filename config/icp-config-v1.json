@@ -1,0 +1,78 @@
+{
+  "icp_id": "MARSLAB-CFG-V1-2026-09-17",
+  "icp_name": "Challenger building-materials dealer-distributor ops (DMS-present-but-bypassed)",
+  "status": "HYPOTHESIS — practitioner validation gate pending (0 interviews)",
+  "version": "1.0",
+  "replaces": null,
+  "priors": ["prior icp-01 (field/fleet)", "prior icp-02 (voice-sales)", "prior icp-03 (knowledge)"],
+  "company": {
+    "verticals": ["paints", "pipes/polymer", "cement", "ceramics/sanitaryware/bathware", "plywood/laminates/hardware"],
+    "business_model": "dealer/distributor-led sales, regional field execution (TSO/ASM beats, CFA/depot fulfilment)",
+    "size": {
+      "revenue_inr_cr": {"sweet_spot": [500, 2000], "allowed_edges": [260, 2600], "reject_below": 100, "reject_above_note": ">5000 = enterprise motion, lookalike only"},
+      "field_force": {"min_reps": 25, "note": "below 25 → WhatsApp+Excel suffices, disqualify"},
+      "dealer_network": {"min_tier1": "200-500 active dealers OR 1000+ dealers/retailers total", "note": "WhatsApp ceiling evidence E4"}
+    },
+    "operational_footprint": ["3+ districts/states OR 2+ depots/CFAs", "multi-brand dealers present", "influencer layer (painter/mason/plumber/contractor/carpenter/architect)"],
+    "system_environment": {
+      "present": ["Tally/SAP/Oracle + DMS/SFA (BeatRoute/FieldAssist/Bizom/Botree/Salesforce) + WhatsApp + Excel"],
+      "pattern": "DMS/SFA present-but-bypassed: parallel Tally billing, scheme leakage, secondary under-reporting, GPS distrust",
+      "disqualify_if": "verified live SFA accountability (GPS-verified visits + secondary in ERP, no Excel bridge) in silent audit"
+    },
+    "examples_in_scope": ["Apollo Pipes", "CERA", "Kajaria", "Hindware", "Prince Pipes", "Indigo Paints", "Sirca", "Kamdhenu", "Star Cement", "Somany", "Greenply"],
+    "exclude": ["Asian Paints", "UltraTech", "Berger (giants: lookalike only)", "<Rs100cr tail (cannot pay custom)", "pure proprietor-dealer as payer (no budget)"]
+  },
+  "problem": {
+    "workflows": [
+      "beat-plan → visit → proof-of-visit → demo/delivery data → EOD report → manager review",
+      "dealer order (phone/WhatsApp photo-list) → spec tracking → stock/credit check → billing (Tally vs DMS) → dispatch → claim/scheme settlement",
+      "influencer payout (painter/mason/plumber) → reconciliation"
+    ],
+    "what_goes_wrong": [
+      "unwitnessed visits + territory rotation + tea-stall check-ins",
+      "45-60 min/day reporting tax (62% non-selling per MAssist)",
+      "order errors Rs800-1500 each, no audit trail",
+      "scheme not applied / wrong scheme / late claim; Rs50k-5L/quarter leakage per distributor; Rs10-50L stuck claims; 5-10% scheme overspend",
+      "secondary sales 15 days late / unstructured WhatsApp, no visibility",
+      "manager chasing via 80-100 WhatsApps/day, manual Excel/PPT mornings"
+    ],
+    "cost_of_current_state_formula": "selling-hours burned (reps × 50min × fully-loaded cost) + claim leakage + stock-out loss + error rework; must be ≥10x pilot fee or disqualify",
+    "why_unsolved": "dot-on-map SaaS shows location not accountability; DMS-as-mandate fails with distributors (surveillance framing); 60% SFA failure (30-sec vs 3-min logging, English-only, offline gaps, 30-40% attrition)",
+    "why_now_ai_plausible": "GPS+mobile ubiquity + cheap anomaly scoring + WhatsApp-grade multilingual UX + ERP/WhatsApp integration deployable in 8-week non-invasive slice"
+  },
+  "triggers": {
+    "strong": ["new plant/grinding unit", "new depot/CFA/distributor appointment", "new product/brand/SKU (145 products/1200 SKUs pattern)", "SFA/DMS rollout or renewal (Apollo FY26, CERA 50→200, Kajaria launch)", "distributor replacement drive", "sales-force hiring spike (5+ TSM/ASM Tier-2/3)", "leadership change / acquisition (India Cements/Kesoram/Orient/JSw-Akzo)", "scheme reset / claim-spike complaints", "competitor tinting-machine placement", "underperformance/share loss (Asian -32.8% PAT pattern)"],
+    "weak_alone": ["revenue size", "dealer count alone", "generic hiring", "uses AI"],
+    "rule": "Tier-1 requires structural-fit + ≥1 dated strong trigger + ≥1 pain-proximate artifact (review/complaint/JD/bypass evidence). Scale-only = Tier-3."
+  },
+  "buying_committee": {
+    "pain_owner": "Head Sales / Regional Sales Head (field) + Head Dispatch where fleet",
+    "champion": "high-performing ASM/Area Manager (lives reporting pain; 2-visit test: gave raw data unprompted + corrected us in front of team)",
+    "economic_buyer": "Promoter/Owner-MD / Director-Sales / COO (owns secondary + claim P&L; shows up to field visit/review)",
+    "influencer": "CFO/Finance (claim settlement, credit limits) + IT (SAP/DMS integration clearance)",
+    "decision_maker": "Promoter + Ops Head veto jointly",
+    "blocker": ["Top 10 distributors (veto via non-compliance)", "IT/SAP partner (no-API queue)", "field team inertia (sabotage)"],
+    "do_not_start_at": "CEO of 1000cr+ groups alone; IT manager alone"
+  },
+  "pilot": {
+    "shape": "One cluster/region (50-100 reps or 100-300 dealers), 4-6 weeks proof + 4-week pre-registered baseline, control region, finance-owned reconciliation",
+    "scope": "GPS-verified coverage + WhatsApp-to-ERP orders + scheme auto-check + pending-claim list. NO rip-replace DMS. Hindi/regional + offline-first + <60-sec check-in.",
+    "success_metrics": ["coverage 40→70%+", "DCR/reporting <15min", "claim cycle −30%", "secondary lift in pilot beats (finance-signed)"],
+    "kill_line": "If coverage <target at week 3 OR no finance-data access OR enforcer unsigned → stop and publish learning",
+    "entry_contract_names": ["enforcer (Area Manager + consequence)", "finance owner", "data feed cadence (Tally/DMS/WhatsApp dump)", "weekly beat-review attendees", "devices/language scope"],
+    "price_anchor": "priced against measured glue-cost; paid pilot + success fee; no free dashboard"
+  },
+  "voice_entry_tactic": {
+    "use": "parallel 30%: dealer/retailer reactivation, distributor collections, repeat-ordering, NDR recovery in Hindi+; Bhajanlal proof (10k calls/day)",
+    "when": "SFA locked 2-3yrs OR <200 dealers but >5k calls/month pending OR attrition >30% OR need fast session",
+    "gate": "week-1 bar test on buyer recordings (one language, one queue); fail twice → kill voice for that account"
+  },
+  "geography": {
+    "primary": "India: West (Morbi ceramics, Mumbai-Pune pipes/paints), North (Delhi-UP-Rajasthan cement/pipes/plywood), South (TN/KA/AP/Telangana cement/ceramics/paints), East+NE (Star Cement footprint, plywood)",
+    "secondary": "Central (MP/Chhattisgarh: Sirca expansion, Sagar Cement ramp)",
+    "avoid": ["export-only clusters without domestic secondary", "plant-towns with <50 dealers in 100km (unit economics fail)", "monsoon-frozen beats Jun-Sep without season-window plan"],
+    "why": "ICP density (dealer clusters + challenger plants) + buying power (Rs500-2000cr) + accessibility (Hindi/regional field + depot access) + adoption likelihood (challenger growth pressure), not company count"
+  },
+  "disqualifiers": ["live verified SFA accountability", "parallel-billing bypass <10% (no pain)", ">60% orders via portal/EDI", "scheme auto-applied + claims <15d + leakage <1%", "<50 dealers or <10 reps in pilot region (economics fail)", "no enforcer signature", "no finance-data access", "IT 9-month queue with no API", "pilot window inside scheme freeze with no control"],
+  "confidence": "MEDIUM-LOW (web evidence strong, zero interviews). Gate: 5 silent audits + 5 live calls + KREPL reference before locking."
+}

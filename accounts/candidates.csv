@@ -1,0 +1,16 @@
+account_id,company_name,domain,hq_city,hq_state,regions,industry,sub_vertical,business_model,revenue_inr_cr,employee_band,field_reps_est,dealers_est,depots,system_env,entity_confidence
+A-APOLLO,Apollo Pipes Ltd,,Delhi,Delhi,NCR+Central+East,pipes,pipes/polymer,dealer/distributor-led,1181.6,1000-5000,,1000,8,SAP upgrade + SFA+DMS roadmap FY26,high
+A-CERA,CERA Sanitaryware Ltd,,Kadi,Gujarat,Pan-India Tier-3 44%,ceramics,sanitaryware,dealer/distributor-led,1915,1000-5000,,6540,,DMS 50->200 rollout Q4FY25,high
+A-KAJARIA,Kajaria Ceramics Ltd,,New Delhi,Delhi,Pan-India 9 plants,ceramics,tiles/bathware,dealer-led,4683,5000+ UPSIDE,,1850,,SFA+DMS just launched + SAP HANA,high
+A-HINDWARE,Hindware Home Innovation Ltd,,Gurgaon,Haryana,Pan-India 600 stores,ceramics,bathware+pipes,distributor-led,1384,1000-5000,,35000,,weighted-dealer + 40-50pct demand-gen,high
+A-PRINCE,Prince Pipes and Fittings Ltd,,Mumbai,Maharashtra,Pan-India 8 plants,pipes,pipes/bathware,channel partners,2524,1000-5000,,1500,,Begusarai plant + Aquel centres + roadshows,high
+A-INDIGO,Indigo Paints Ltd,,Pune,Maharashtra,28 states 54 depots,paints,decorative,dealer-led,1277,1000-2000,,18371,54,Jodhpur plant Q3FY26 + tinting 11k,high
+A-SIRCA,Sirca Paints India Ltd,,New Delhi,Delhi,20+ branches,paints,wood coatings,retail+OEM,492.48,500-1000,,4000,20,Wembley acquisition + Tier2/3 expansion,high
+A-KAMDHENU,Kamdhenu Colour and Coatings Ltd,,Gurgaon,Haryana,North+East,paints,decorative,dealer-led,266.1,200-500,,4400,,premium mix 43pct + designer galleries,medium
+A-STAR,Star Cement Ltd,,Kolkata,West Bengal,NE 27pct share,cement,cement+AAC,dealer/retailer,3163,1000-5000,,12100,53,Silchar/Jorhat grinding FY26-27 + digital dealer service,high
+A-SOMANY,Somany Ceramics Ltd,,Noida,UP,Pan-India Tier-3/4/5,ceramics,tiles/bathware,channel 81pct,2658.7,1000-5000,,,,+181 dealers FY25 + plumber loyalty + WhatsApp bot,high
+A-GREENPLY,Greenply Industries Ltd,,Kolkata,West Bengal,1100+ towns,plywood,plywood/MDF,trade-heavy,2488,1000-5000,,3000,,dealer payment delays + visibility meets,medium
+A-SHALIMAR,Shalimar Paints Ltd,,Gurgaon,Haryana,N/S/W plants,paints,decorative+industrial,distributor-led,599.06,500-1000,,,,250 tinting machines + 10k painters/mo,medium
+A-DORSET,Dorset Group,,Gurgaon,Haryana,Pan-India,hardware,locks/hardware,dealer/influencer,UNKNOWN,500-800 est,,10000,,display centre expansion,low
+A-EBCO,EBCO Pvt Ltd,,Mumbai,Maharashtra,Pan-India,hardware,furniture fittings,dealer/carpenter/OEM,UNKNOWN,300-400 est,,3000,,carpenter meets + training,low
+A-VECTUS,Vectus Industries Pvt Ltd,,Noida,UP,North/Central,pipes,pipes/tanks,dealer/plumber,UNKNOWN,800-1200 est,,,,tank premiumisation + SKU expansion,low

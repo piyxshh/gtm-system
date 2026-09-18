@@ -1,0 +1,11 @@
+account_id,company_name,human_fit,human_signal_ok,human_buyer_ok,human_contact_ok,notes
+A-APOLLO,Apollo Pipes Ltd,Tier-1,verified-tech+growth,owner/sales-head hypo,UNVERIFIED (no enrichment run),gold: SFA+DMS FY26 + Varanasi = Tier-1 if 2nd source confirms
+A-CERA,CERA Sanitaryware Ltd,Tier-1,verified-tech + pain-inference,owner/sales-head hypo,UNVERIFIED,gold: DMS 50->200 + SKU surge = Tier-1; needs pain 2nd artifact
+A-KAJARIA,Kajaria Ceramics Ltd,Tier-2,verified-tech but upper-mid 4683cr,VP hypo,UNVERIFIED,gold: tech trigger real but enterprise-leaning -> Tier-2 nurture
+A-HINDWARE,Hindware Home Innovation Ltd,Tier-2,commercial only (no pain artifact),head-sales hypo,UNVERIFIED,gold: single-signal -> Tier-2 per dual-signal rule
+A-PRINCE,Prince Pipes and Fittings Ltd,Tier-2,growth only,owner hypo,UNVERIFIED,gold: scale-only -> Tier-2
+A-INDIGO,Indigo Paints Ltd,Tier-2,growth only,head-sales hypo,UNVERIFIED,gold: scale-only -> Tier-2
+A-SIRCA,Sirca Paints India Ltd,Tier-2,commercial+M&A (pain missing),promoter hypo,UNVERIFIED,gold: Tier-2 until JD/review artifact
+A-STAR,Star Cement Ltd,Tier-2,growth only + upper-mid 3163cr,head-sales hypo,UNVERIFIED,gold: Tier-2 enterprise-leaning
+A-SHALIMAR,Shalimar Paints Ltd,Tier-1,verified pain (CIO quote) + commercial,pain-owner hypo,UNVERIFIED,gold: pain-artifact-led Tier-1
+A-DORSET,Dorset Group,Tier-3,UNKNOWN revenue + no trigger,UNVERIFIED,UNVERIFIED,gold: insufficient evidence -> Tier-3 watch
